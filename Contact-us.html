@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/css/Responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
+</head>
+
+<body onload="preLoaderHandler()">
+    <div id="loader" class="dots-container">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <!-- header start -->
+    <nav>
+        <div class="navbar">
+
+            <i class="fa-solid fa-bars" style="color: #fff;"></i>
+            <div class="logo"><a href="index.html"><img src="assets/images/Logo.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <img src="assets/images/Logo.png" alt="logo" class="logo">
+                    <i class="fa-solid fa-x" style="color: #fff;"></i>
+                </div>
+                <ul class="links">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="About-us.html" class="link-b-line">About </a></li>
+                    <li>
+                        <div class="d-flex"> <a href="#" class="link-b-line">Services<i
+                                class="fa-solid fa-angle-up js-arrow arrow" style="color: #fff;" id="arrowdrop"></i>
+                            </a>
+                        </div>
+                        <!-- <i class='bx bxs-chevron-down js-arrow arrow '></i> -->
+                        <ul class="js-sub-menu sub-menu" id="menusub">
+                            <li><a href="Information Managment.html">Information Managment</a></li>
+                            <li><a href="Lead-Logistic.html">Lead Logistic</a></li>
+                            <li><a href="Records-Management.html">Records Management</a></li>
+                            <li><a href="Specialized-Logistic.html">Specialized Logistic</a></li>
+                            <li><a href="Supply-Chain.html">Supply Chain Design & Re-Engineering</a></li>
+                            <li><a href="Value-Added-Services.html">Value Added Services</a></li>
+                            <li><a href="warehouse.html">Warehouse Managemnt</a></li>
+                            <li><a href="Yard-Management.html">Yard Management</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="Contact-us.html" class="link-b-line  ">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- header end -->
+   <div class="about-banner-sec">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                <h6>Contact</h6>
+                <h2>Contact or Visit to Our Office</h2>
+            </div>
+            </div>
+            <div class="col-lg-8"></div>
+        </div>
+    </div>
+   </div>
+   <!-- about-banner-sec-end  -->
+     <!-- contact-sec-start  -->
+     <div class="contact-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h6>Contact Us</h6>
+                    <h2>Get in touch with Us</h2>
+                    <p>For perfect logistics solutions customized to your needs, get in touch with us right now. We are
+                        available to assist you at every turn.</p>
+                    <div class="d-flex">
+                        <ul>
+                            <li><img src="assets/images/msg.png" class="choose-icon"></li>
+                            <li><img src="assets/images/ph.png" class="choose-icon"></li>
+                            <li><img src="assets/images/tm.png" class="choose-icon"></li>
+                        </ul>
+                        <ul >
+                            <li class="m-text">
+                                <p>Email</p>
+                                <p class="p-low"> contact@logistics.com</p>
+                            </li>
+                            <li class="m-text">
+                                <p>Call Us </p>
+                                <p class="p-low"> (00) 112 365 489</p>
+                            </li>
+                            <li class="m-text">
+                                <p>Mon - Sat 9.00 - 18.00 </p>
+                                <p class="m-text"> Sunday Closed</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+
+                    <form id="contactForm" method="post">
+                        <div class="form-ctrl">
+                           
+                            <input type="text" name="name" placeholder="Enter your name" required="">
+                        </div>
+
+                        <div class="form-ctrl select-form">
+                           
+                            <div class="phn-num">
+
+                                <input type="number" name="phone" placeholder="Enter  Phone Number" required=""
+                                    id="num">
+                            </div>
+                        </div>
+                        <div class="form-ctrl ">
+                           
+                            <input type="email" name="email" placeholder="Enter your mail" required="" >
+                        </div>
+
+                        <div class="form-ctrl ">
+                           
+                            <input type="text" name="city" placeholder="City" required="">
+                        </div>
+                        <div class="form-ctrl textarea-form">
+                           
+                            <textarea rows="5" name="message" placeholder="Let tell us know your project about"
+                                required=""></textarea>
+                        </div>
+                        <button type="submit" id="sendButton" class="submit">Send message <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div id="error"></div>
+                    <div id="response"></div>
+                </div>
+            </div>
+            <div class="map-sec">
+                
+                 
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14028.582503450938!2d77.03312288193052!3d28.475160719680524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d28.480641799999997!2d77.0449321!4m5!1s0x390d19b1446866fb%3A0x2a5581c86a83116f!2scut%20edge%20technology%20phone!3m2!1d28.470320899999997!2d77.0419749!5e0!3m2!1sen!2sin!4v1675444396080!5m2!1sen!2sin" allowfullscreen=""></iframe>
+                  
+              </div>
+              
+                    <div class="d-flex studio-img-div">
+                        <div >
+                            <img src="assets/images/green.webp" class="studio-img">
+                        </div>
+                        <div >
+                            <img src="assets/images/norto.webp" class="studio-img">
+                        </div>
+                        <div >
+                            <img src="assets/images/point-one.webp" class="studio-img">
+                        </div>
+                        <div >
+                            <img src="assets/images/sand-box.webp" class="studio-img">
+                        </div>
+                    </div>
+               
+          
+        </div>
+    </div>
+
+    <!-- contect-sec-end  -->
+    
+   
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row upper-footer">
+                <div class="col-lg-3 mt-1">
+                    
+
+                       <h4>About Us</h4>
+                        <p class="p-short">Cargoly is a WordPress theme built for Transport & Logistic companies but is suitable for all businesses providing related services. This theme will suit your needs to build a website that last and stand out from the crowd.</p>
+                 <a href="Contact-us.html"><button class="mt-2">Get Quote Now</button></a>
+                </div>
+                <div class="col-lg-3 mt-1 footer-link link-home">
+                    <ul>
+                        <h4 class="">Quick Links</h4>
+                        <li class="d-flex afline" ><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="index.html" > Home</a></li>
+                        <li class="d-flex afline" ><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="About-us.html"> About</a></li>
+                        <li class="d-flex"><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="Contact-us.html" > Contact</a></li>
+                        
+
+                   
+                        <h4 class="mt-4">Follow Our Socials</h4>
+                    <div class="d-flex">
+                      <a href="#" > <i class="fa-brands fa-facebook-f" style="color: #fff; font-size: 25px;margin-right: 15px;"></i></a>
+                      <a href="#" ><i class="fa-brands fa-instagram" style="color: #fff; font-size: 25px;"></i></a>
+                    </div>
+                </ul>
+                </div>
+
+                <div class="col-lg-3 mt-1 footer-link">
+                    <ul>
+                        <h4 class="">Transport Services</h4>
+                        <li class="d-flex afline" ><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="Information Managment.html" > Information Management</a></li>
+                        <li class="d-flex afline" ><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="Lead-Logistic.html">Lead Logistic</a></li>
+                        <li class="d-flex afline" ><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="Records-Management.html" >Records-Management</a></li>
+                        <li class="d-flex afline" ><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="Specialized-Logistic.html">Specialized Logistics</a></li>
+                        <li class="d-flex afline"><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="Supply-Chain.html" >Supply Chain Design </a></li>
+                        <li class="d-flex"><i class="fa-solid fa-arrow-right" style="color: #fff; margin-right: 10px;margin-top: 5px;"></i><a href="Value-Added-Services.html" >Value Added-Services</a></li>
+                        
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 mt-1 footer-link">
+                      
+                    <h4 class="">Opening Hours</h4>
+                    <div class="d-flex afline" >
+                    <p class="p-short day">Monday</p> <p class="p-bold">06:00 — 18:00</p>
+                    </div>
+                    <div class="d-flex afline" >
+                    <p class="p-short day">Tuesday</p><p class="p-bold">   06:00 — 18:00</p>
+                    </div>
+                    <div class="d-flex afline" >
+                    <p class="p-short day">Wednesday</p> <p class="p-bold">  06:00 — 18:00</p>
+                    </div>
+                    <div class="d-flex afline" >
+                    <p class="p-short day">Thursday</p><p class="p-bold">   06:00 — 18:00</p>
+                    </div>
+                    <div class="d-flex afline" >
+                    <p class="p-short day">Friday</p> <p class="p-bold">   06:00 — 18:00</p>
+                    </div>
+                    <div class="d-flex afline" >
+                    <p class="p-short day">Saturday</p> <p class="p-bold">   08:30 — 16:30</p>
+                    </div>
+                    <div class="d-flex">
+                    <p class="p-short red-text day">Sunday</p> <p class="p-bold red-text">  We're Closed</p>
+                </div>   
+
+                
+            </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-end-div">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-lg-3 d-flex ">
+                  <a href="#"><img src="assets/images/Symbol.png" class="footer-end-icon"></a>
+                  <div>
+                    <p class="p1">Visit Our Location</p>
+                    <p class="p2">109 Kingston Street, New York</p>
+                  </div>
+                    </div>
+
+                    <div class="col-lg-3 d-flex ">
+                        <a href="#"><img src="assets/images/Symbol1.png" class="footer-end-icon"></a>
+                        <div>
+                          <p class="p1">Give Us A Call</p>
+                          <p class="p2">(412) - 123 - 456 - 7890</p>
+                        </div>
+                          </div>
+                          <div class="col-lg-3 d-flex ">
+                            <a href="#"><img src="assets/images/Symbol 2.png" class="footer-end-icon"></a>
+                            <div>
+                              <p class="p1">Send Us A Message</p>
+                              <p class="p2">info@cargoly-logstics.com</p>
+                            </div>
+                              </div>
+                              <div class="col-lg-3 d-flex ">
+                                <a href="#"><img src="assets/images/Symbol3.png" class="footer-end-icon"></a>
+                                <div>
+                                  <p class="p1">Ask Us A Question</p>
+                                  <p class="p2">We reply as soon as possible</p>
+                                </div>
+                                  </div>
+                </div>
+
+            </div>
+        </div>
+   
+   
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+   <script>
+    $(document).ready(function () {
+    $("#contactForm").submit(function (event) {
+        event.preventDefault();
+
+        // Disable the form elements while processing
+        $("#name, #email, #message, #sendButton").prop("disabled", true);
+
+        // Display the loading animation on the button
+        $("#sendButton").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...');
+
+        // Serialize the form data
+        var formData = $(this).serialize();
+
+        $.ajax({
+            type: "POST",
+            url: "main.php", // Replace with the actual path to your PHP script
+            data: formData,
+            success: function (response) {
+                if (response === "success") {
+                    // Reset the form
+                    $("#contactForm")[0].reset();
+                    // Display a success message
+                    $("#response").html("Message sent successfully.");
+                } else {
+                    // Display an error message
+                    $("#response").html("Error: " + response);
+                }
+
+                // Re-enable the form elements and reset the button
+                $("#name, #email, #message, #sendButton").prop("disabled", false);
+                $("#sendButton").html("Send");
+            },
+            error: function (xhr, status, error) {
+                // Display an error message
+                $("#response").html("Error: " + error);
+
+                // Re-enable the form elements and reset the button
+                $("#name, #email, #message, #sendButton").prop("disabled", false);
+                $("#sendButton").html("Send");
+            }
+        });
+    });
+});
+
+   </script>
+
+</body>
+
+</html>
